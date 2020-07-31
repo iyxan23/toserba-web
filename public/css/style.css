@@ -20,3 +20,56 @@
     pointer-events: none;
     text-align: center;
 }
+
+.social-media-buttons {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+#facebook {
+    background: #3B5998;
+    color: white;
+}
+
+#instagram {
+    background: #125688;
+    color: white;
+}
+
+#whatsapp-btn-fixed {
+    position: fixed;
+    bottom: 20;
+    right: 20;
+    background: #0ad114;
+    color: white;
+}
+
+.kc_fab_main_btn{
+    background-color:#F44336;
+    width:60px;
+    height:60px;
+    border-radius:100%;
+    background:#F44336;
+    border:none;
+    outline:none;
+    color:#FFF;
+    font-size:36px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition:.3s;  
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.kc_fab_main_btn:focus {
+    transform:scale(1.1);
+    transform:rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+#kontak-outlet-1, #kontak-outlet-2 {
+    cursor: pointer;
+}
