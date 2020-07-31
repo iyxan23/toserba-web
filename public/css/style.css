@@ -1,0 +1,22 @@
+.glow-hover {
+    box-shadow:none;
+}
+.glow-hover:hover, .glow-hover:active {
+    box-shadow: 0 0 15px #42afee;
+}
+
+.top-index {
+    height: 100vh;
+    width: inherit;
+    min-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/img_top.jpg');
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item-melayani {
+    pointer-events: none;
+    text-align: center;
+}
