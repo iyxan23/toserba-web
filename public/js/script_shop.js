@@ -44,9 +44,9 @@ fetch("https://toserba-project.firebaseio.com/products.json")
             }
             rating_num--;
         }
-        products.innerHTML += '<div class="col-lg-' + col_count +' col-md-6 mb-4">' + 
+        products.innerHTML += '<div class="col-lg-4 col-md-6 mb-4">' + 
                             '<div class="card h-100">' +
-                            '<a href="#"><img class="card-img-top" src="' + data[x]["img"] + '" alt=""></a>' +
+                            '<a href="#"><img style="width: 100%; max-height: 400px;" class="card-img-top" src="' + data[x]["img"] + '" alt=""></a>' +
                             '<div class="card-body">' +
                                 '<h4 class="card-title">' +
                                 '<a href="#">' + data[x]["title"] + '</a>' +

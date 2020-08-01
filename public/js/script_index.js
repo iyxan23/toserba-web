@@ -6,3 +6,10 @@ window.onscroll = function() {
         document.getElementById("navbar").style.top = "-58px";
     }
 } 
+
+function detectMob() {
+    return ( ( window.innerWidth <= 800 ) && ( window.innerHeight <= 600 ) );
+}
+if (detectMob()) {
+    document.getElementById("big-text").classList.add("display-4");
+}
