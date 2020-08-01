@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<!--
+    Hello, if you are editing this, please, please, I'm not that good at web development
+    I Usually code in Android Studio, making android apps for my own needs, and web dev
+    is one of something that im interested in. So.. Dont judge my html/css/js skills
+
+    Iyxan23
+ -->
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Toserba Online Website">
+        <meta name="keywords" content="Koperasi, Online, E-Commerce">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css"/>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <!-- Fontawesome 5 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="css/style.css"/>
+        <title>Toserba</title>
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+            <div class="container">
+            <a class="navbar-brand" href="#">Toserba</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Beranda
+                        
+                        </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#tentang-kami">Tentang</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Belanja
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#kontak">Kontak</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+         <!-- Page Content -->
+        <div class="container mt-5 my-5">
+            <div>
+
+            </div>
+
+            <div class="row">
+                <!--
+            <div class="col-lg-3 mt-4">
+                <h1 class="my-4">Kategori</h1>
+                <div class="list-group">
+                <a href="#" class="list-group-item">Category 1</a>
+                <a href="#" class="list-group-item">Category 2</a>
+                <a href="#" class="list-group-item">Category 3</a>
+                </div>
+
+            </div> -->
+            <!-- /.col-lg-3 -->
+
+                <div class="col-lg-12 mt-4">
+
+                    <div id="carouselIndicators" class="carousel slide my-4" data-ride="carousel">
+                        <ol class="carousel-indicators" id="indicators">
+                        </ol>
+                        <div class="carousel-inner" id="carousel-imgs" role="listbox">
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Sebelumnya</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Selanjutnya</span>
+                        </a>
+                    </div>
+
+                <div class="row" id="products">
+
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.col-lg-9 -->
+
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!-- /.container -->
+
+        <!-- Footer -->
+        <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+            <div class="container text-center">
+              <small>Copyright &copy; Toserba Makarima 2020</small>
+            </div>
+          </footer>
+    </body>
+
+    <!-- WOW.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-auth.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyD-8fAA5tYHENTi3YwCaVY34r0icpMp52E",
+          authDomain: "toserba-project.firebaseapp.com",
+          databaseURL: "https://toserba-project.firebaseio.com",
+          projectId: "toserba-project",
+          storageBucket: "toserba-project.appspot.com",
+          messagingSenderId: "994013839268",
+          appId: "1:994013839268:web:f07feb7305acbba611cb31",
+          measurementId: "G-MLCKK3NH1R"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+      </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/fontawesome.min.js"></script>
+
+    <!-- jQuery, Popper.js, Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <script src="js/script_shop.js"></script>
+</html>

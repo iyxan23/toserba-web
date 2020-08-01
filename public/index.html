@@ -15,6 +15,9 @@
         <meta name="keywords" content="Koperasi, Online, E-Commerce">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css"/>
+
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
@@ -40,13 +43,13 @@
                         </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Tentang</a>
+                    <a class="nav-link" href="#tentang-kami">Tentang</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Belanja</a>
+                    <a class="nav-link" href="shop.html">Belanja</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Kontak</a>
+                    <a class="nav-link" href="#kontak">Kontak</a>
                 </li>
                 </ul>
             </div>
@@ -59,7 +62,7 @@
                 <div class="col-12 text-center">
                     <h1 class="font-weight-bold display-3">Toserba Makarima</h1>
                     <p class="lead">Selalu siap melayani pesanan anda.</p>
-                    <div><a class="btn btn-primary rounded-pill pl-3 pr-3 glow-hover mt-5" href="#" role="button">Mulai belanja</a></div>
+                    <div><a class="btn btn-primary rounded-pill pl-3 pr-3 glow-hover mt-5" href="shop.html" role="button">Mulai belanja</a></div>
                     <i class="fa fa-chevron-down" style="position: relative; top: 100px; bottom: 0;"></i>
                 </div>
             </div>
@@ -69,8 +72,8 @@
         <!-- Page Content -->
         <section class="py-5">
             <div class="container">
-                <h1 id="kami-melayani" class="font-weight-light text-center mt-5 mb-5">Kami Melayani</h1>
-                <ul class="list-group list-group-horizontal w-100">
+                <h1 id="kami-melayani" class="font-weight-light text-center mt-5 mb-5 wow fadeInUp">Kami Melayani</h1>
+                <ul class="list-group list-group-horizontal w-100 flex-wrap">
                     <li class="list-group-item flex-fill item-melayani">Snack</li>
                     <li class="list-group-item flex-fill item-melayani">Seragam Sekolah</li>
                     <li class="list-group-item flex-fill item-melayani">ATK</li>
@@ -85,13 +88,14 @@
         <section class="py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 mt-5">
-                        <h1 id="tentang-kami" class="font-weight-light display-5">Tentang Kami</h1>
+                    <div class="col-md-8 mt-1">
+                        <div style="height: 80px;" id="tentang-kami"></div>
+                        <h1 class="font-weight-light display-5">Tentang Kami</h1>
                         <p> Kami adalah satu satunya toko di lingkungan Al Azhar Solo Baru, yang menyediakan berbagai macam kebutuhan siswa dan seluruh komponen Kampus Al Azhar Solo baru. Nikmati kemudahan pembelian komponen sekolah di web site kami. Toserba Makarima menuju era Milenial, terdepan dalam inovasi. Produk andalan kami adalah seragam siswa Al Azhar Solo Baru, Seragam siswa PAUD dan SD Makarima Kartosuro, Asesoris batik, ATK, Snack dan sembako juga Layanan ekspedisi. 
 
                         </p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 mt-5">
                         <img src="img/logo.jpg" width="100%" alt="Logo Toserba Makarima"/>
                     </div>
                 </div>
@@ -126,16 +130,12 @@
         <section class="py-5">
             <div class="container">
                 <h1 id="kontak" class="font-weight-light">Kontak</h1>
-                <div>
-                    <a target="blank_" href="https://api.whatsapp.com/?send=081326157725" class="btn btn-primary mb-0" style="background-color: #FFFFFF;">
-                        <p id="kontak-outlet-1" style="margin-bottom: 0;"><img src="img/whatsapp.jpeg" class="mr-1" width="30px"/><span style="color: #000000;"> 081326157725 (Outlet 1)</span></p>
-                    </a>
-                </div>
-                <div class="mt-2">
-                    <a target="blank_" href="https://api.whatsapp.com/?send=081326157724" class="btn btn-primary mb-0" style="background-color: #FFFFFF;">
-                        <p id="kontak-outlet-2" style="margin-bottom: 0;"><img src="img/whatsapp.jpeg" class="mr-1" width="30px"/><span style="color: #000000;"> 081326157724 (Outlet 2)</span></p>
-                    </a>
-                </div>
+                <a target="blank_" href="https://api.whatsapp.com/?send=081326157725" class="btn btn-primary mb-0 ml-1 mt-2" style="background-color: #FFFFFF;">
+                    <p id="kontak-outlet-1" style="margin-bottom: 0;"><img src="img/whatsapp.jpeg" class="mr-1" width="30px"/><span style="color: #000000;"> 081326157725 (Outlet 1)</span></p>
+                </a>
+                <a target="blank_" href="https://api.whatsapp.com/?send=081326157724" class="btn btn-primary mb-0 ml-1 mt-2" style="background-color: #FFFFFF;">
+                    <p id="kontak-outlet-2" style="margin-bottom: 0;"><img src="img/whatsapp.jpeg" class="mr-1" width="30px"/><span style="color: #000000;"> 081326157724 (Outlet 2)</span></p>
+                </a>
             </div>
         </section>
         <div class="mt-5 bg-dark" style="width: 100%;">
@@ -143,7 +143,7 @@
                 <div class="container">
                     <h1 class="font-weight-light text-center" style="color: white;">Social Media</h1>
                     <ul class="mt-4 list-inline text-center">
-                        <li class="list-inline-item"><a id="facebook" href="#" class="fa fa-facebook social-media-buttons"></a></li>
+                        <!-- <li class="list-inline-item"><a id="facebook" href="#" class="fa fa-facebook social-media-buttons"></a></li> -->
                         <li class="list-inline-item"><a id="instagram" target="blank_" href="https://www.instagram.com/toserba_makarima/" class="fa fa-instagram social-media-buttons"></a></li>
                     </ul>
                 </div>
@@ -157,11 +157,11 @@
           </footer>
     </body>
 
-    <!-- Firebase -->
-    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-database.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-auth.js"></script>
+    <!-- WOW.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/fontawesome.min.js"></script>
 

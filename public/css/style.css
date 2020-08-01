@@ -73,3 +73,7 @@
 #kontak-outlet-1, #kontak-outlet-2 {
     cursor: pointer;
 }
+
+html {
+    scroll-behavior: smooth;
+}
